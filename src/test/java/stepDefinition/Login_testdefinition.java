@@ -17,12 +17,12 @@ public class Login_testdefinition {
 	@Given("^User navigates to jenkins$")
 	public void User_navigates_to_jenkins() throws Throwable 
    {
-		system.out.println("welcome to jenkins");
+		System.out.println("welcome to jenkins");
    }
 
   
 
-     @when("^User Clicks on login button$")
+     @When("^User Clicks on login button$")
      public void User_Clicks_on_login_button() throws Throwable
      {
     	 

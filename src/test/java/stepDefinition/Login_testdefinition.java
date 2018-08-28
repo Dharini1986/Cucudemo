@@ -30,8 +30,8 @@ public class Login_testdefinition {
        	 
       }
      
-     @Then("^login_page_needs_to_be_displayed$")
-     public void login page needs to be displayed() throws Throwable 
+     @Then("^login page needs to be displayed$")
+     public void login_page_needs_to_be displayed() throws Throwable 
      {
     	 
        	  System.out.println("test succesfull");
